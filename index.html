@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="wrapper">
     <header>
         <h1>Nemo's hundblogg</h1>
     </header>
@@ -27,12 +28,21 @@
     <section class="splide" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
               <ul class="splide__list">
-                  <li class="splide__slide">Slide 01</li>
-                  <li class="splide__slide">Slide 02</li>
-                  <li class="splide__slide">Slide 03</li>
-                  <li class="splide__slide">Slide 04</li>
-                  <li class="splide__slide">Slide 05</li>
-                  <li class="splide__slide">Slide 06</li>
+                  <li class="splide__slide">
+                    <img src="bilder/Nemo6fix.jpg" alt="Bildpånemo">
+                  </li>
+                  <li class="splide__slide">
+                    <img src="bilder/Nemo2fix.jpg" alt="Bildpånemo">
+                  </li>
+                  <li class="splide__slide">
+                    <img src="bilder/Nemo4fix.jpg" alt="Bildpånemo">
+                  </li>
+                  <li class="splide__slide">
+                    <img src="bilder/Finnemo3fix.jpg" alt="Bildpånemo">
+                  </li>
+                  <li class="splide__slide">
+                    <img src="bilder/Nemo8fix.jpg" alt="Bildpånemo">
+                  </li>
               </ul>
         </div>
       </section>
@@ -63,11 +73,11 @@
 </aside>
       <script>
         new Splide( '.splide', {
-          speed: 2000,
+          speed: 3000,
           type: 'loop',
           wheel: true,
           autoplay: true,
-          interval: 3000,
+          interval: 5000,
           pauseOnHover: true,
           padding: 30,
           gap: 10,
@@ -75,5 +85,6 @@
           pagination: 'ttb'
         } ).mount();
       </script>
+      </div>
 </body>
 </html>

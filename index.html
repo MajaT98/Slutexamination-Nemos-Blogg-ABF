@@ -5,9 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.1/dist/css/splide.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Nemo's hundblogg</h1>
+    <header>
+        <h1>Nemo's hundblogg</h1>
+    </header>
+    <nav>
+        <a href="#">
+            Hem
+        </a>
+        <a href="#">
+            Kontakt
+        </a>
+        <a href="#">
+            Om
+        </a>
+    </nav>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">Slide 01</li>
+                  <li class="splide__slide">Slide 02</li>
+                  <li class="splide__slide">Slide 03</li>
+                  <li class="splide__slide">Slide 04</li>
+                  <li class="splide__slide">Slide 05</li>
+                  <li class="splide__slide">Slide 06</li>
+              </ul>
+        </div>
+      </section>
+      <article>
+        <h2>Blogginlägg 1</h2>
+        <h4>DATUM</h4>
+        <p>Idag är jag en kossa</p>
+    </article>
+    <article>
+        <h2>Blogginlägg 2</h2>
+        <h4>DATUM</h4>
+        <p>Idag är jag en hund</p>
+    </article>
+    <aside>
+    <nav>
+        <h4>Sök i bloggen</h4>
+        <a href="#">Sökknapp</a>
+    </nav>
+    <article>
+        <p>Lite information om mig</p>
+        <img src="#" alt="Bild på mig">
+        <p>Lite mer information om mig</p>
+        <h4>Länkar till mina sociala medier</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">Youtube</a>
+    </article>
+</aside>
+      <script>
+        new Splide( '.splide', {
+          speed: 2000,
+          type: 'loop',
+          wheel: true,
+          autoplay: true,
+          interval: 3000,
+          pauseOnHover: true,
+          padding: 30,
+          gap: 10,
+          pagination: boolean = true,
+          pagination: 'ttb'
+        } ).mount();
+      </script>
 </body>
 </html>

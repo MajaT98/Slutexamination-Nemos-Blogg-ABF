@@ -1,16 +1,45 @@
 body {
-    background-image: url("Bilder2/Bakgrund5.svg");
-}
-
-header {
-    width: 80%;
-    margin: 0 auto;
-    /* background-color: coral; */
+    background-image: url("Bilder2/Bakgrund7.svg");
 }
 
 .wrapper {
     width: 60%;
     margin: 0 auto;
-    background-color: white;
-    border: 1px solid rgb(55, 46, 134);
+    background-color: rgb(255, 238, 243);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: ;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    color: rgb(28, 38, 70);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+}
+
+section {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+img {
+    margin: auto;
+}
+
+.splide .splide__slide img {
+    width: 100%;
+}
+
+.main_nav {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }

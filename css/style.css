@@ -203,3 +203,12 @@ hr {
     width: 50%;
     padding: 10px;
 }
+
+.datum_kommentarer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datum_kommentarer a {
+    text-decoration: none;
+}
